@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily: {
         'pinyon': ['"Pinyon Script"', 'cursive'],
-        sans: ['Montserrat', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+      },
         fontWeight: {
           '100': '100',
           '300': '300',
@@ -27,6 +28,5 @@ module.exports = {
         },
       },
     },
-  },
   plugins: [],
 }
