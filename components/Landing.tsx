@@ -81,9 +81,10 @@ const Landing = () => {
       </div>
 
       <div className="relative">
-        <div className="absolute top-0 left-0 w-full bg-gradient-to-r from-gray-200 to-gray-300 h-5 transform -skew-y-2"></div>
-        <div className="absolute top-0 left-0 w-full bg-gradient-to-r from-gray-300 to-gray-400 h-4 transform -skew-y-2"></div>
+        <div className="absolute top-0 left-0 w-full bg-gradient-to-r from-gray-200 to-gray-300 h-16 transform -skew-y-2"></div>
+        <div className="absolute top-0 left-0 w-full bg-gradient-to-r from-gray-300 to-gray-400 h-8 transform -skew-y-2"></div>
       </div>
+
 
     </div >
   )
