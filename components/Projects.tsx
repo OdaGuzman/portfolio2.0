@@ -54,7 +54,7 @@ export default function Projects() {
             </a>
           </div>
           <div className="w-full h-full lex flex-col justify-center items-center pt-4">
-            <p className="text-xl">Muse is a music player that creates playlists based on the user's emotional input. It operates based on the user's musical history and artist preferences on Spotify to provide personalized playlist.</p>
+            <p className="text-xl">InStock is a Full-Stack team collaboration with fellow colleagues to develop an Inventory Management System, where the user can add and remove items from the Inventory page and select from a list of Warehouses to modify the selected warehouse location. </p>
             <ul className="flex items-center justify-between pt-4 text-sm">
 
               <li>Jira</li><span className="text-purple-600 text-xl ml-1">|</span>
