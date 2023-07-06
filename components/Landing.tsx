@@ -8,11 +8,11 @@ const Landing = () => {
       <h1 className="text-center">Software Developer</h1>
       <h1 className="text-center">Based in Canada</h1>
 
-      <div className="flex justify-center gap-2 text-2xl p-2 mt-48">
+      <div className="flex justify-center gap-2 text-2xl p-2 mt-40">
         {/* Box 1 */}
         <div className="flex justify-center items-center flex-col basis-full" >
           <h1 className="text-gray-500 pb-5">About</h1>
-          <h2 className="flex flex-col px-8">Hi! I'm Oda. I curate experiences with technology. As an ambitious web developer, I thrive on embracing challenges head-on. I'm driven to leave a lasting impact through innovative and user-friendly digital experiences.
+          <h2 className="flex flex-col px-28" >Hi! I'm Oda. I curate experiences with technology. As an ambitious web developer, I thrive on embracing challenges head-on. I'm driven to leave a lasting impact through innovative and user-friendly digital experiences.
           </h2>
         </div>
 
@@ -32,7 +32,7 @@ const Landing = () => {
 
         {/* Box 3*/}
         <div className="flex justify-center items-center flex-col basis-full" >
-          <h1 className="text-gray-500 pb-5 px-8" >Services</h1>
+          <h1 className="text-gray-500 pb-5 px-14" >Services</h1>
           <h2 className="">UI/UX Design</h2>
           <h2 className="">API Development</h2>
           <h2 className="">Web Development</h2>
@@ -41,7 +41,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="flex justify-center gap-7 mt-40">
+      <div className="flex justify-center gap-7 mt-34">
         <img
           src='/react.png'
           alt="React Logo"

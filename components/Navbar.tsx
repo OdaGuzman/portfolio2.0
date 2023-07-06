@@ -33,10 +33,7 @@ const Navbar = () => {
 
       {/* Empty space for Projects and Education */}
       <div className="flex items-center font-montserrat hover:text-white transition-colors duration-300 text-2xl">
-        {/* <a href="#education" className="mr-6 text-2xl font-montserrat hover:text-white transition-colors duration-300">
-          Education
-        </a> */}
-        <a href="#projects">
+        <a href="#rojects">
           Projects
         </a>
       </div>
