@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Landing = () => {
   return (
     <div className="flex flex-col justify-center gap-y-3 text-4xl font-montserrat">
@@ -9,11 +8,11 @@ const Landing = () => {
       <h1 className="text-center">Software Developer</h1>
       <h1 className="text-center">Based in Canada</h1>
 
-      <div className="flex justify-center gap-2 text-2xl p-2 h-screen">
+      <div className="flex justify-center gap-2 text-2xl p-2 mt-48">
         {/* Box 1 */}
         <div className="flex justify-center items-center flex-col basis-full" >
           <h1 className="text-gray-500 pb-5">About</h1>
-          <h2 className=" overflow-ellipsis whitespace-wrap text-center">I'm Oda! I curate experiences with technology. I'm Oda! I curate experiences with technology. I'm Oda! I curate experiences with technology.technology. I'm Oda! I curate experiences with technology.
+          <h2 className="flex flex-col px-8">Hi! I'm Oda. I curate experiences with technology. As an ambitious web developer, I thrive on embracing challenges head-on. I'm driven to leave a lasting impact through innovative and user-friendly digital experiences.
           </h2>
         </div>
 
@@ -33,7 +32,7 @@ const Landing = () => {
 
         {/* Box 3*/}
         <div className="flex justify-center items-center flex-col basis-full" >
-          <h1 className="text-gray-500 pb-5" >Services</h1>
+          <h1 className="text-gray-500 pb-5 px-8" >Services</h1>
           <h2 className="">UI/UX Design</h2>
           <h2 className="">API Development</h2>
           <h2 className="">Web Development</h2>
@@ -42,7 +41,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="flex justify-center gap-7">
+      <div className="flex justify-center gap-7 mt-40">
         <img
           src='/react.png'
           alt="React Logo"
@@ -79,6 +78,17 @@ const Landing = () => {
           className="w-32 h-15 object-contain"
         />
       </div>
+
+      <div className="flex items-center justify-center">
+        <div className="w-12 h-12 rounded-full flex items-center justify-center">
+          <img
+            src="/arrow.gif"
+            alt="Arrow Image"
+            className="h-38 pb-20 animate-light"
+          />
+        </div>
+      </div>
+
 
       <div className="relative">
         <div className="absolute top-0 left-0 w-full bg-gradient-to-r from-gray-200 to-gray-300 h-16 transform -skew-y-2"></div>
