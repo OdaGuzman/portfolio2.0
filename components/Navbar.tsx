@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
+import ThemeToggle from './ThemeToggle';
+
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between pt-4 pb-16 px-8 pb-45 font-montserrat">
@@ -43,10 +45,13 @@ const Navbar = () => {
 
 
       {/* Empty space for Projects and Education */}
-      <div className="flex items-center hover:text-white transition-colors duration-300 text-2xl">
-        <a href="#projects">
+      <div className="flex items-center content-center gap-4 ">
+        <a href="#projects" className='hover:text-white transition-colors duration-300 text-2xl'>
           Projects
         </a>
+        <div className="flex items-center">
+          <ThemeToggle/>
+        </div>
       </div>
     </div>
   );

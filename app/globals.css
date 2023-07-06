@@ -29,4 +29,15 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* global.css */
+.dark {
+  --bg-color: #1f2937;
+  --text-color: #f9fafb;
+  /* Add other dark mode styles here */
+}
 
+/* Apply the dark mode styles to specific elements or the entire page */
+.dark body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
