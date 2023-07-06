@@ -1,7 +1,8 @@
 'use client'
 import { useState, useEffect } from 'react';
+import { ThemeToggleProps } from '../components/types';
 
-const ThemeToggle = () => {
+const ThemeToggle = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
   // const [isDarkMode, setIsDarkMode] = useState(false);
 
   // // Function to toggle between light and dark mode

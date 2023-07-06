@@ -2,6 +2,7 @@
 import Landing from '@/components/Landing'
 import NavBar from '@/components/Navbar'
 import Projects from '@/components/Projects'
+import { ThemeToggleProps } from '../components/types';
 
 import { useState, useEffect } from 'react';
 
@@ -23,11 +24,12 @@ export default function Home() {
   useEffect(() => {
     document.documentElement.classList.toggle('dark', isDarkMode);
   }, [isDarkMode]);
+  
   return (
     <>
-      <NavBar />
-      <Landing />
-      <Projects />
+      <NavBar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
+      <Landing isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
+      <Projects isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
     </>
   )
 

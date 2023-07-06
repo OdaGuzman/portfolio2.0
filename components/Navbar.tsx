@@ -1,39 +1,74 @@
 import React from 'react';
 import Image from 'next/image'
 import ThemeToggle from './ThemeToggle';
+import { ThemeToggleProps } from '../components/types';
 
-const Navbar = () => {
+
+const Navbar = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
   return (
     <div className="flex items-center justify-between pt-4 pb-16 px-8 pb-45 font-montserrat">
       {/* Social Media Icons */}
-      <div className="flex items-center">
-        <a href="mailto:odaguz.dev@gmail.com">
-          <Image src="/email.png"
-            alt="Email Icon"
-            className="h-14 mr-4 hover:animate-bounce"
-            width={56}
-            height={56} />
-        </a>
+      {isDarkMode ?
+        <div className="flex items-center">
+          <a href="mailto:odaguz.dev@gmail.com">
 
-        <a href="https://github.com/OdaGuzman">
-          <Image src="/github.png"
-            alt="Github Icon"
-            className="h-14 mr-4 hover:animate-bounce"
-            width={56}
-            height={56}
-          />
-        </a>
+            <Image src="/email.png"
+              alt="Email Icon"
+              className="h-14 mr-4 hover:animate-bounce"
+              width={56}
+              height={56} />
+          </a>
 
-        <a href="https://www.linkedin.com/in/oda-guzman">
-          <Image
-            src="/Linkedin1.png"
-            alt="LinkedIn Icon"
-            className="h-14 mr-4 hover:animate-bounce"
-            width={56}
-            height={56}
-          />
-        </a>
-      </div>
+          <a href="https://github.com/OdaGuzman">
+            <Image src="/github.png"
+              alt="Github Icon"
+              className="h-14 mr-4 hover:animate-bounce"
+              width={56}
+              height={56}
+            />
+          </a>
+
+          <a href="https://www.linkedin.com/in/oda-guzman">
+            <Image
+              src="/LinkedInDark.png"
+              alt="LinkedIn Icon"
+              className="h-14 mr-4 hover:animate-bounce"
+              width={56}
+              height={56}
+            />
+          </a>
+        </div>
+        :
+        <div className="flex items-center">
+          <a href="mailto:odaguz.dev@gmail.com">
+
+            <Image src="/email.png"
+              alt="Email Icon"
+              className="h-14 mr-4 hover:animate-bounce"
+              width={56}
+              height={56} />
+          </a>
+
+          <a href="https://github.com/OdaGuzman">
+            <Image src="/github.png"
+              alt="Github Icon"
+              className="h-14 mr-4 hover:animate-bounce"
+              width={56}
+              height={56}
+            />
+          </a>
+
+          <a href="https://www.linkedin.com/in/oda-guzman">
+            <Image
+              src="/Linkedin1.png"
+              alt="LinkedIn Icon"
+              className="h-14 mr-4 hover:animate-bounce"
+              width={56}
+              height={56}
+            />
+          </a>
+        </div>
+      }
 
 
 
@@ -50,7 +85,7 @@ const Navbar = () => {
           Projects
         </a>
         <div className="flex items-center">
-          <ThemeToggle/>
+          <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         </div>
       </div>
     </div>

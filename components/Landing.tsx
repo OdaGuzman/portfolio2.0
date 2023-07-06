@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import { ThemeToggleProps } from '../components/types';
 
-const Landing = () => {
+const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
   return (
     <div className="flex flex-col justify-center gap-y-3 text-4xl font-montserrat">
 

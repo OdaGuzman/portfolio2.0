@@ -1,5 +1,8 @@
 import Image from 'next/image'
-export default function Projects() {
+import { ThemeToggleProps } from '../components/types';
+
+
+export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) {
   return (
     <div className="flex flex-col items-center pt-20 pb-40 font-montserrat" id="projects">
       <div className="text-5xl mb-5 py-20">Projects</div>
