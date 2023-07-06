@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between pt-4 pb-16 px-8 pb-45">
+    <div className="flex items-center justify-between pt-4 pb-16 px-8 pb-45 font-montserrat">
       {/* Social Media Icons */}
       <div className="flex items-center">
         <a href="mailto:odaguz.dev@gmail.com">
@@ -26,13 +26,13 @@ const Navbar = () => {
 
 
       {/* Logo */}
-      <a href="#landing" className="text-3xl font-montserrat hover:text-white transition-colors duration-300">
+      <a href="#landing" className="text-3xl mr-16 pr-6 hover:text-white transition-colors duration-300">
         {"</>"}
       </a>
 
 
       {/* Empty space for Projects and Education */}
-      <div className="flex items-center font-montserrat hover:text-white transition-colors duration-300 text-2xl">
+      <div className="flex items-center hover:text-white transition-colors duration-300 text-2xl">
         <a href="#rojects">
           Projects
         </a>

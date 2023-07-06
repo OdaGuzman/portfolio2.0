@@ -102,10 +102,9 @@ export default function Projects() {
       </div>
 
       <div className="relative">
-        <div className="top-0 left-0  bg-gradient-to-r from-gray-500 to-gray-600 h-8 transform -skew-y-4"></div>
-        <div className="top-0 left-0  bg-gradient-to-r from-gray-300 to-gray-400 h-32 transform -skew-y-4"></div>
+        <div className="top-0 left-0  bg-gradient-to-r from-gray-500 to-gray-600 h-8 transform -skew-y-2"></div>
+        <div className="top-0 left-0  bg-gradient-to-r from-gray-300 to-gray-400 h-32 transform -skew-y-2"></div>
       </div>
     </div >
   );
 }
-
