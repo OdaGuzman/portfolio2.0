@@ -13,7 +13,7 @@ const Landing = () => {
         {/* Box 1 */}
         <div className="flex justify-center items-center flex-col basis-full" >
           <h1 className="text-gray-500 pb-5">About</h1>
-          <h2 className="flex flex-col px-28 text-center lg:text-left" >Hi! I'm Oda. I curate experiences with technology. As an ambitious web developer, I thrive on embracing challenges head-on. I'm driven to leave a lasting impact through innovative and user-friendly digital experiences.
+          <h2 className="flex flex-col px-28 text-center lg:text-left" >Hi! I&apos;m Oda. I curate experiences with technology. As an ambitious web developer, I thrive on embracing challenges head-on. I&apos;m driven to leave a lasting impact through innovative and user-friendly digital experiences.
           </h2>
         </div>
 
@@ -44,7 +44,7 @@ const Landing = () => {
 
       <div className="flex justify-center flex-wrap gap-4 lg:gap-7 mt-20 lg:mt-34 lg:flex-nowrap">
         <Image
-          src='/react.png'
+          src="/react.png"
           alt="React Logo"
           className="w-32 h-15 object-contain"
           width={128}

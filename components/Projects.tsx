@@ -20,7 +20,7 @@ export default function Projects() {
             </a>
           </div>
           <div className="w-full h-full lex flex-col justify-center items-center pt-4">
-            <p className="text-xl">Muse is a music player that creates playlists based on the user's emotional input. It operates based on the user's musical history and artist preferences on Spotify to provide personalized playlist.</p>
+            <p className="text-xl">Muse is a music player that creates playlists based on the user&apos;s emotional input. It operates based on the user&apos;s musical history and artist preferences on Spotify to provide personalized playlist.</p>
             <ul className="flex pt-4 text-sm items-center justify-between">
               <li>React</li><span className="text-purple-600 text-xl">|</span>
               <li>Spotify Web API</li><span className="text-purple-600 text-xl">|</span>
