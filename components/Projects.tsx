@@ -16,7 +16,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
             <span className="text-black text-4xl">Muse 🎧</span>
             <a href="https://muse-music-player.herokuapp.com/">
               <Image
-                src="/muse.png" alt="Muse"
+                src="/Muse.png" alt="Muse"
                 className="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100"
                 width={384}
                 height={384} />
@@ -49,7 +49,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
             <span className="text-black text-4xl">Wasabi Bytes 🍣</span>
             <a href="https://wasabi-bytes-app.com/">
               <Image
-                src="/wasabi.png"
+                src="/Wasabi.png"
                 alt="Wasabi Bytes"
                 className="absolute top-0 left-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 hover:opacity-100"
                 width={384}
