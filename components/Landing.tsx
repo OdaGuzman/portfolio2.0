@@ -45,35 +45,35 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
 
       <div className="flex justify-center flex-wrap gap-4 lg:gap-7 mt-20 lg:mt-34 lg:flex-nowrap">
         <Image
-          src="/react.png"
+          src="/React.png"
           alt="React Logo"
           className="w-32 h-15 object-contain"
           width={128}
           height={240}
         />
         <Image
-          src="/next.png"
+          src="/Next.png"
           alt="Next.js"
           className="w-32 h-15 object-contain"
           width={128}
           height={240}
         />
         <Image
-          src="/tailwind.png"
+          src="/Tailwind.png"
           alt="Tailwind"
           className="w-48 lg:h-60 object-contain"
           width={192}
           height={240}
         />
         <Image
-          src="/mongo.png"
+          src="/Mongo.png"
           alt="MongoDB"
           className="w-44 lg:h-60 object-contain"
           width={176}
           height={240}
         />
         <Image
-          src="/mysql.png"
+          src="/Mysql.png"
           alt="MySQL"
           className="w-24 h-15 object-contain"
           width={96}
@@ -102,7 +102,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
         />
 
         <Image
-          src="/typescript.png"
+          src="/Typescript.png"
           alt="Typescript"
           className="w-28 h-13 object-contain"
           width={128}
@@ -112,7 +112,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
       <div className="flex items-center justify-center mt-14 lg:mt-0">
         <div className="w-12 h-12 rounded-full flex items-center justify-center">
           <Image
-            src="/arrow.gif"
+            src="/Arrow.gif"
             alt="Arrow Image"
             className="h-38 pb-20 animate-light"
             width={48}
