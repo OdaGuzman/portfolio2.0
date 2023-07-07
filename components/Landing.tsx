@@ -80,21 +80,35 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           height={240}
         />
         <Image
-          src="/typescript.png"
-          alt="Typescript"
+          src="/Figma3.png"
+          alt="Figma"
           className="w-32 h-15 object-contain"
           width={128}
           height={240}
         />
         <Image
-          src="/aws.png"
-          alt="Amazon Web Services"
+          src="/PhotoShop2.png"
+          alt="Adobe PhotoShop"
           className="w-32 h-15 object-contain"
           width={128}
           height={240}
         />
-      </div>
+        <Image
+          src="/Illustrator2.png"
+          alt="Adobe Illustrator"
+          className="w-32 h-15 object-contain"
+          width={128}
+          height={240}
+        />
 
+        <Image
+          src="/typescript.png"
+          alt="Typescript"
+          className="w-28 h-13 object-contain"
+          width={128}
+          height={240}
+        />
+      </div>
       <div className="flex items-center justify-center mt-14 lg:mt-0">
         <div className="w-12 h-12 rounded-full flex items-center justify-center">
           <Image
@@ -104,6 +118,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             width={48}
             height={48} />
         </div>
+
       </div>
 
 

@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ['cdn.iconscout.com'],
+  },
+}
 
-module.exports = {  // Add your Next.js config here
+module.exports = {
+  ...nextConfig,
   distDir: '.next',
-};
+  // other Next.js configuration options
+}
