@@ -108,7 +108,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
 
               <a href="https://docs.google.com/presentation/d/1JmQJHaY1tknDnsFdPAa_RMc50mMU9UVzecni6lfmjhQ/edit?usp=sharing">
                 <Image
-                  src="/slides.png"
+                  src="/Slides.png"
                   alt="Research Presentation"
                   className="h-7 ml-auto"
                   width={28}
