@@ -20,7 +20,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
 
         {/* Box 2 - Image Div */}
         <div className="flex justify-center items-center basis-full ">
-          <div className="w-680 h-960 rounded-full border-4 border-gray-500/30 p-5">
+          <div className={`w-680 h-960 rounded-full border-4 p-5 ${isDarkMode ? 'border-white-500' : 'border-gray-500/30 p-5'}`}>
             <Image
               src="/me.png"
               alt="Oval Image"

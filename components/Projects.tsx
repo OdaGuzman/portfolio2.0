@@ -7,7 +7,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
     <div className="flex flex-col items-center pt-20 pb-40 font-montserrat" id="projects">
       <div className="text-4xl mb-5 py-20">Projects</div>
 
-      <div className="flex gap-72 lg:gap-80 flex-col lg:flex-row">
+      <div className={`flex gap-72 lg:gap-80 flex-col lg:flex-row ${isDarkMode ? 'text-black' : ''}`}>
 
         {/* Image 1 - 1st Row*/}
         <div className="relative w-96 h-96">
@@ -87,7 +87,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
 
 
       {/* Image 1 - 2nd Row */}
-      <div className="flex gap-72 lg:gap-80 flex-col lg:flex-row mt-64">
+      <div className={`flex gap-72 lg:gap-80 flex-col lg:flex-row mt-64 ${isDarkMode ? 'text-black' : ''}`}>
 
         {/* Image 1 */}
         <div className="relative w-96 h-96">

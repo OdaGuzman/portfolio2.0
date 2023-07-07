@@ -24,7 +24,7 @@ const ThemeToggle = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
   return (
     <button
       type="button"
-      className="w-12 h-12 flex items-center justify-center rounded-full  dark:bg-gray-700"
+      className="w-12 h-12 flex items-center justify-center rounded-full"
       onClick={toggleTheme}
     >
       {isDarkMode ? (
