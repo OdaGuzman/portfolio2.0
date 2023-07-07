@@ -45,35 +45,35 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
 
       <div className="flex justify-center flex-wrap gap-4 lg:gap-7 mt-20 lg:mt-34 lg:flex-nowrap">
         <Image
-          src="/React.png"
+          src="/react.png"
           alt="React Logo"
           className="w-32 h-15 object-contain"
           width={128}
           height={240}
         />
         <Image
-          src="/Next.png"
+          src="/next.png"
           alt="Next.js"
           className="w-32 h-15 object-contain"
           width={128}
           height={240}
         />
         <Image
-          src="/Tailwind.png"
+          src="/tailwind.png"
           alt="Tailwind"
           className="w-48 lg:h-60 object-contain"
           width={192}
           height={240}
         />
         <Image
-          src="/Mongo.png"
+          src="/mongo.png"
           alt="MongoDB"
           className="w-44 lg:h-60 object-contain"
           width={176}
           height={240}
         />
         <Image
-          src="/Mysql.png"
+          src="/mysql.png"
           alt="MySQL"
           className="w-24 h-15 object-contain"
           width={96}
@@ -102,7 +102,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
         />
 
         <Image
-          src="/Typescript.png"
+          src="/typescript.png"
           alt="Typescript"
           className="w-28 h-13 object-contain"
           width={128}
