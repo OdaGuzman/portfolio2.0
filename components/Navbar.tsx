@@ -15,7 +15,7 @@ const Navbar = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src={isDarkMode ? '/MailDark.png' : '/MailLight.png'}
             alt="Email Icon"
-            className="h-18 w-20 mr-2 hover:animate-bounce"
+            className="h-16 w-16 mr-2 hover:animate-bounce"
             width={48}
             height={48} />
         </a>
@@ -24,7 +24,7 @@ const Navbar = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src={isDarkMode ? '/GithubDark.png' : '/GithubLight.png'}
             alt="Github Icon"
-            className="h-18 w-20 mr-2 hover:animate-bounce"
+            className="h-16 w-16 mr-2 hover:animate-bounce"
             width={68}
             height={48}
           />
@@ -34,15 +34,15 @@ const Navbar = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src={isDarkMode ? '/LinkedInDark.png' : '/LinkedInLight.png'}
             alt="LinkedIn Icon"
-            className={`h-18 hover:animate-bounce ${isDarkMode ? 'w-18 ml-5' : 'w-20 mr-2'}`}
-            width={48}
-            height={48}
+            className={`h-18 hover:animate-bounce ${isDarkMode ? 'w-18 ml-5' : 'w-16 mr-2'}`}
+            width={42}
+            height={44}
           />
         </a>
       </div>
 
       {/* Logo */}
-      <a href="#landing" className={`text-3xl mr-16 pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>
+      <a href="#landing" className={`text-2xl pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>
         {"</>"}
       </a>
 
@@ -50,7 +50,7 @@ const Navbar = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
 
       {/* Education */}
       <div className="flex items-center content-center gap-4 " >
-        <a href="#projects" className={`text-2xl ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>
+        <a href="#projects" className={`text-xl ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>
           Projects
         </a>
 
