@@ -15,7 +15,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
         {/* Box 1 */}
         <div className="flex justify-center items-center flex-col basis-full" >
           <h1 className="text-gray-500 pb-5 text-xl">About</h1>
-          <h2 className="flex flex-col px-28 text-center lg:text-left text-l" >Hi! I&apos;m Oda. I curate experiences with technology. As an ambitious web developer, I thrive on embracing challenges head-on. I&apos;m driven to leave a lasting impact through innovative and user-friendly digital experiences.
+          <h2 className="flex flex-col px-16 lg:px-28 text-center lg:text-left text-l" >Hi! I&apos;m Oda. I curate experiences with technology. As an ambitious web developer, I thrive on embracing challenges head-on. I&apos;m driven to leave a lasting impact through innovative and user-friendly digital experiences.
           </h2>
         </div>
 
@@ -44,92 +44,74 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
       </div>
 
       <div className="flex flex-col justify-center mt-20 gap-2">
-        <div className="flex justify-center flex-wrap gap-3">
+        <div className="flex justify-center content-center flex-wrap gap-3">
           {/* Image containers 1 */}
-          <div className="w-32 h-15">
-            <Image
-              src="/Figma3.png"
-              alt="Figma"
-              className="object-contain"
-              width={128}
-              height={240}
-            />
-          </div>
-          <div className="w-32 h-15">
-            <Image
-              src="/PhotoShop2.png"
-              alt="Adobe PhotoShop"
-              className="object-contain"
-              width={128}
-              height={240}
-            />
-          </div>
-          <div className="w-32 h-15">
-            <Image
-              src="/Illustrator2.png"
-              alt="Adobe Illustrator"
-              className="object-contain"
-              width={128}
-              height={240}
-            />
-          </div>
+          <Image
+            src="/Figma3.png"
+            alt="Figma"
+            className="object-contain"
+            width={128}
+            height={240}
+          />
+          <Image
+            src="/PhotoShop2.png"
+            alt="Adobe PhotoShop"
+            className="object-contain"
+            width={128}
+            height={240}
+          />
+          <Image
+            src="/Illustrator2.png"
+            alt="Adobe Illustrator"
+            className="object-contain"
+            width={128}
+            height={240}
+          />
         </div>
-        <div className="flex justify-center flex-wrap gap-7">
+        <div className="flex justify-center content-center flex-wrap gap-7 pb-20">
           {/* Image containers 2 */}
-          <div className="w-32 h-15">
-            <Image
-              src="/react.png"
-              alt="React Logo"
-              className="object-contain"
-              width={128}
-              height={240}
-            />
-          </div>
-          <div className="w-32 h-15">
-            <Image
-              src="/next.png"
-              alt="Next.js"
-              className="object-contain"
-              width={128}
-              height={240}
-            />
-          </div>
-          <div className="w-48 lg:h-60">
-            <Image
-              src="/tailwind.png"
-              alt="Tailwind"
-              className="object-contain"
-              width={192}
-              height={240}
-            />
-          </div>
-          <div className="w-44 lg:h-60">
-            <Image
-              src="/mongo.png"
-              alt="MongoDB"
-              className="object-contain"
-              width={176}
-              height={240}
-            />
-          </div>
-          <div className="w-24 h-15">
-            <Image
-              src="/mysql.png"
-              alt="MySQL"
-              className="object-contain"
-              width={96}
-              height={240}
-            />
-          </div>
-          <div className="w-28 h-13">
-            <Image
-              src="/typescript.png"
-              alt="Typescript"
-              className="object-contain"
-              width={128}
-              height={240}
-            />
-          </div>
+          <Image
+            src="/react.png"
+            alt="React Logo"
+            className="object-contain"
+            width={128}
+            height={240}
+          />
+          <Image
+            src="/next.png"
+            alt="Next.js"
+            className="object-contain"
+            width={128}
+            height={240}
+          />
+          <Image
+            src="/tailwind.png"
+            alt="Tailwind"
+            className="object-contain"
+            width={192}
+            height={240}
+          />
+          <Image
+            src="/mongo.png"
+            alt="MongoDB"
+            className="object-contain"
+            width={176}
+            height={240}
+          />
+          <Image
+            src="/mysql.png"
+            alt="MySQL"
+            className="object-contain"
+            width={96}
+            height={240}
+          />
+          <Image
+            src="/typescript.png"
+            alt="Typescript"
+            className="object-contain"
+            width={128}
+            height={240}
+          />
         </div>
       </div>
 
