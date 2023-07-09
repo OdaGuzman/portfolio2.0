@@ -106,6 +106,13 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             height={240}
           />
           <Image
+            src="/knex.png"
+            alt="Knex.js"
+            className="object-contain"
+            width={128}
+            height={240}
+          />
+          <Image
             src="/typescript.png"
             alt="Typescript"
             className="object-contain"
