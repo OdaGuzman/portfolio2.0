@@ -49,6 +49,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src="/Figma3.png"
             alt="Figma"
+            title="Figma"
             className="object-contain"
             width={128}
             height={240}
@@ -56,6 +57,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src="/PhotoShop2.png"
             alt="Adobe PhotoShop"
+            title="Adobe PhotoShop"
             className="object-contain"
             width={128}
             height={240}
@@ -63,6 +65,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src="/Illustrator2.png"
             alt="Adobe Illustrator"
+            title="Adobe Illustrator"
             className="object-contain"
             width={128}
             height={240}
@@ -73,6 +76,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src="/react.png"
             alt="React Logo"
+            title="React JS"
             className="object-contain"
             width={128}
             height={240}
@@ -80,6 +84,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src="/next.png"
             alt="Next.js"
+            title="Next.js"
             className="object-contain"
             width={128}
             height={240}
@@ -87,6 +92,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src="/tailwind.png"
             alt="Tailwind"
+            title="Tailwind CSS"
             className="object-contain"
             width={192}
             height={240}
@@ -94,6 +100,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src="/mongo.png"
             alt="MongoDB"
+            title="MongoDB"
             className="object-contain"
             width={176}
             height={240}
@@ -101,6 +108,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
           <Image
             src="/mysql.png"
             alt="MySQL"
+            title="MySQL"
             className="object-contain"
             width={96}
             height={240}
