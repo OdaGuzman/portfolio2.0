@@ -7,7 +7,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
     <div className="flex flex-col justify-center gap-y-3 font-montserrat">
 
       <div className="text-2xl">
-        <h1 className="text-center" >Oda Guzmán</h1>
+        <h1 className="text-center">Oda Guzmán</h1>
         <h1 className="text-center">Software Developer</h1>
         <h1 className="text-center">Based in Canada</h1>
       </div>
@@ -73,13 +73,21 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
         </div>
         <div className="flex justify-center content-center flex-wrap gap-7 pb-20">
           {/* Image containers 2 */}
-          <Image
+          {/* <Image
             src="/react.png"
             alt="React Logo"
             title="React JS"
             className="object-contain"
             width={128}
             height={240}
+          /> */}
+          <Image
+            src="/typescript.png"
+            alt="Typescript"
+            title="TypeScript"
+            className="object-contain"
+            width={124}
+            height={200}
           />
           <Image
             src="/next.png"
@@ -122,13 +130,22 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             height={32}
           />
           <Image
-            src="/typescript.png"
-            alt="Typescript"
-            title="TypeScript"
+            src="/JWT.png"
+            alt="JWT.png"
+            title="Jason Web Token"
             className="object-contain"
-            width={124}
-            height={200}
+            width={130}
+            height={32}
           />
+          <Image
+            src="/passport.png"
+            alt="Passport.js"
+            title="Passport.js"
+            className="object-contain"
+            width={72}
+            height={32}
+          />
+
         </div>
       </div>
 
