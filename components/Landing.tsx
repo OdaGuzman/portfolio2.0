@@ -138,7 +138,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             height={32}
           />
           <Image
-            src="/passport.png"
+            src="/Passport.png"
             alt="Passport.js"
             title="Passport.js"
             className="object-contain"
