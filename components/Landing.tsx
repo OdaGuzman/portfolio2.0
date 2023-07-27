@@ -122,12 +122,12 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             height={240}
           />
           <Image
-            src="/knex.png"
-            alt="Knex.js"
-            title="Knex.js"
+            src="/prisma.png"
+            alt="Prisma ORM"
+            title="Prisma ORM"
             className="object-contain"
-            width={50}
-            height={32}
+            width={35}
+            height={28}
           />
           <Image
             src="/JWT.png"
