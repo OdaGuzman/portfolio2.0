@@ -106,11 +106,11 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             height={240}
           />
           <Image
-            src="/mongo.png"
-            alt="MongoDB"
-            title="MongoDB"
+            src="/postgres.png"
+            alt="PostgreSQL"
+            title="PostgreSQL"
             className="object-contain"
-            width={176}
+            width={110}
             height={240}
           />
           <Image
