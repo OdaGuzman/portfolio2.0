@@ -94,7 +94,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             alt="Next.js"
             title="Next.js"
             className="object-contain"
-            width={100}
+            width={80}
             height={240}
           />
           <Image
@@ -102,7 +102,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             alt="Tailwind"
             title="Tailwind CSS"
             className="object-contain"
-            width={192}
+            width={170}
             height={240}
           />
           <Image
@@ -126,7 +126,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             alt="Knex.js"
             title="Knex.js"
             className="object-contain"
-            width={72}
+            width={50}
             height={32}
           />
           <Image
