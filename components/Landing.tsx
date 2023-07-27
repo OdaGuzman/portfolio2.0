@@ -130,11 +130,11 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             height={28}
           />
           <Image
-            src="/JWT.png"
-            alt="JWT.png"
-            title="Jason Web Token"
+            src="/graphql.png"
+            alt="GraphQL.png"
+            title="GraphQL"
             className="object-contain"
-            width={130}
+            width={60}
             height={32}
           />
           <Image
