@@ -6,10 +6,10 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
   return (
     <div className="flex flex-col justify-center gap-y-3 font-montserrat">
 
-      <div className="text-2xl">
-        <h1 className="text-center">Oda Guzmán</h1>
-        <h1 className="text-center">Software Developer</h1>
-        <h1 className="text-center">Based in Canada</h1>
+      <div className="text-2xl text-center">
+        <h1 className={`hidden md:block text-2xl lg:pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Oda Guzmán</h1>
+        <h1 className={`hidden md:block text-2xl lg:pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Software Developer</h1>
+        <h1 className={`hidden md:block text-2xl lg:pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Based in Canada</h1>
       </div>
       <div className="flex justify-center gap-12 text-m mt-24 flex-col lg:flex-row">
         {/* Box 1 */}
@@ -86,7 +86,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             alt="Typescript"
             title="TypeScript"
             className="object-contain"
-            width={124}
+            width={80}
             height={200}
           />
           <Image
@@ -94,7 +94,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             alt="Next.js"
             title="Next.js"
             className="object-contain"
-            width={128}
+            width={100}
             height={240}
           />
           <Image
@@ -142,7 +142,7 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
             alt="Passport.js"
             title="Passport.js"
             className="object-contain"
-            width={72}
+            width={50}
             height={32}
           />
 
