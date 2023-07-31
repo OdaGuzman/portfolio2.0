@@ -42,7 +42,7 @@ const Navbar = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
       </div>
 
       {/* Logo */}
-      <a href="#landing" className={`hidden md:block text-2xl lg:pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>
+      <a href="#landing" className={`hidden md:block text-2xl  pr-20  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>
         {"</>"}
       </a>
 

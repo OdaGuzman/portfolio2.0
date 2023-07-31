@@ -6,10 +6,10 @@ const Landing = ({ isDarkMode, toggleTheme }: ThemeToggleProps) => {
   return (
     <div className="flex flex-col justify-center gap-y-3 font-montserrat">
 
-      <div className="text-2xl text-center">
-        <h1 className={`hidden md:block text-2xl lg:pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Oda Guzmán</h1>
-        <h1 className={`hidden md:block text-2xl lg:pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Software Developer</h1>
-        <h1 className={`hidden md:block text-2xl lg:pr-12  ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Based in Canada</h1>
+      <div className="flex flex-col items-center marker:text-2xl text-center">
+        <p className={`hidden md:block text-2xl ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Oda Guzmán</p>
+        <p className={`hidden md:block text-2xl ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Software Developer</p>
+        <p className={`hidden md:block text-2xl ${isDarkMode ? 'hover:text-purple-400 transition-colors duration-300' : 'hover:text-white transition-colors duration-300'}`}>Based in Canada</p>
       </div>
       <div className="flex justify-center gap-12 text-m mt-24 flex-col lg:flex-row">
         {/* Box 1 */}
