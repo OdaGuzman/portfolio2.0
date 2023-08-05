@@ -57,6 +57,8 @@ This project is licensed under the MIT License.
 
 Feel free to get in touch with me for inquiries, collaboration, or just to say hello!
 
-Email: odaguz.dev@gmail.com
-LinkedIn: /in/odaguzman
-Personal Website: www.odaguz.dev
+*Email:* odaguz.dev@gmail.com
+
+*LinkedIn:* /in/odaguzman
+
+*Personal Website:* www.odaguz.dev
