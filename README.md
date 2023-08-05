@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👩🏽‍💻 Portfolio 2.0
 
-## Getting Started
+Welcome to my Portfolio Website (: It's designed to provide visitors with insights into my web development journey and expertise.
 
-First, run the development server:
+## ✨ Features
+
+- 🎉 Projects Showcase: Display and describe my latest web development projects.
+- 🌟 Tech Stack: Highlight the technologies and tools I use in my projects.
+- ⚡️ Contact Me: Provide multiple ways for visitors to reach out to me.
+
+## 🛠️ Tech Stack As Of Now
+
+- [Next.js](https://nextjs.org/) - A popular React framework for server-side rendering and static site generation.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that enhances code quality and maintainability.
+- [Photoshop](https://www.adobe.com/products/photoshop.html) - Image editing software for creating and enhancing graphics and photos.
+- [Illustrator](https://www.adobe.com/products/illustrator.html) - Vector graphics editor for creating illustrations and artwork.
+- [Figma](https://www.figma.com/) - A collaborative design tool for creating UI/UX designs and prototypes.
+- [PostgreSQL](https://www.postgresql.org/) - A powerful, open-source relational database management system.
+- [MySQL](https://www.mysql.com/) - An open-source relational database management system known for its speed and reliability.
+- [Prisma](https://www.prisma.io/) - A modern database toolkit for TypeScript and Node.js, simplifying database access.
+- [Auth0](https://auth0.com/) - A popular authentication and authorization platform to implement secure user authentication.
+- [MongoDB](https://www.mongodb.com/) - A popular NoSQL database for handling large amounts of unstructured data.
+- [GraphQL](https://graphql.org/) - A query language and runtime for APIs that provides a more efficient alternative to REST APIs.
+- [GraphQL Yoga](https://github.com/prisma-labs/graphql-yoga) - A fully-featured GraphQL server based on Express.js, making setup easy.
+- [Apollo Server](https://www.apollographql.com/docs/apollo-server/) - A GraphQL server implementation that works with any GraphQL schema.
+- REST APIs - Representational State Transfer APIs for client-server communication.
+
+## 🚀 Getting Started
+
+Follow these steps to explore my portfolio website:
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/portfolio-website.git
+
+# Navigate to the project directory
+cd portfolio-website
+
+# Install dependencies
+npm install
+# or
+yarn
+
+# Start the development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to explore my projects.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 **License**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project is licensed under the MIT License.
 
-## Learn More
+## ❤️ **Contact Me**
 
-To learn more about Next.js, take a look at the following resources:
+Feel free to get in touch with me for inquiries, collaboration, or just to say hello!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Email: odaguz.dev@gmail.com
+LinkedIn: /in/odaguzman
+Personal Website: www.odaguz.dev
