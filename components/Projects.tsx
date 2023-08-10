@@ -7,7 +7,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
     <div className="flex flex-col items-center pt-20 pb-40 font-montserrat" id="projects">
       <div className="text-3xl mb-5 py-20">Projects</div>
 
-      <div className={`flex gap-72 lg:gap-60 flex-col lg:flex-row ${isDarkMode ? 'text-black' : ''}`}>
+      <div className={`flex gap-72 lg:gap-32 flex-col lg:flex-row ${isDarkMode ? 'text-black' : ''}`}>
 
         {/* Image 1 - 1st Row*/}
         <div className="relative w-[21rem] h-[21rem] lg:ml-14">
@@ -60,7 +60,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
             </a>
           </div>
           <div className="w-full h-full flex-col justify-center items-center pt-4">
-            <p className="text-l">Wasabi Bytes is a full-stack project that showcases an interactive sushi menu. Users are able to create an account, log in,and place orders for their favorite sushi dishes.</p>
+            <p className="text-l">Wasabi Bytes is a full-stack project that showcases an interactive sushi menu. Users are able to create an account, log in,and place orders for their favorite sushi dishes. 🚧Back-end is being revamped🚧</p>
             <ul className="flex items-center justify-between pt-4 text-sm">
 
               <li>Next.js</li><span className="text-purple-600 text-xl ml-1">|</span>
@@ -80,14 +80,15 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
             </ul>
           </div>
         </div>
-        {/* Image 3 - 2nd Row*/}
-        {/* <div className="relative w-[21rem] h-[21rem]">
-          <div className="bg-white border-8 border-gray-300 p-5 flex justify-center items-center w-full h-full transition-colors">
-            <span className="text-black text-3xl">Reverie 🌀</span>
-            <a href="https://marketplace.visualstudio.com/items?itemName=OdaGuzman.Reverie">
+        {/* Image 3 - 1st Row*/}
+        <div className="relative w-[21rem] h-[21rem]">
+          <div className="bg-white border-8 flex-col border-gray-300 p-5 flex justify-center items-center w-full h-full transition-colors">
+            <span className="text-black text-3xl">BandSite 🎸</span><br />
+            <p className=" text-gray-400 text-xl">REST API Website</p>
+            <a href="https://bandsite-oda-guzman.netlify.app/">
               <Image
-                src="/Reverie1.png"
-                alt="Reverie"
+                src="/Bandsite.png"
+                alt="Bandsite"
                 className="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 hover:opacity-100"
                 width={384}
                 height={384}
@@ -95,12 +96,14 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
             </a>
           </div>
           <div className="w-full h-full flex-col justify-center items-center pt-4">
-            <p className="text-l">Reverie is an eye-soothing Visual Studio Code color theme with blends of navy blue, golden, green, and velvet colors.</p>
+            <p className="text-l">This project features a bandsite using vanilla JavaScript and REST API for users to create a comment, love the comment, or delete it. </p>
             <ul className="flex items-center justify-between pt-4 text-sm">
 
-              <li>JSON</li><span className="text-purple-600 text-xl ml-1">|</span>
+              <li>REST API</li><span className="text-purple-600 text-xl ml-1">|</span>
+              <li>JavaScript</li><span className="text-purple-600 text-xl ml-1">|</span>
+              <li>SCSS</li><span className="text-purple-600 text-xl ml-1">|</span>
 
-              <a href="https://github.com/OdaGuzman/reverie-vscode-theme">
+              <a href="https://github.com/OdaGuzman/BandSite_">
                 <Image
                   src="/github-icon.png"
                   alt="Github Repo Reverie"
@@ -111,7 +114,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
               </a>
             </ul>
           </div>
-        </div> */}
+        </div>
       </div>
 
       <div className="relative">
@@ -120,10 +123,10 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
       </div>
 
 
-      {/* Image 1 - 2nd Row */}
-      <div className={`flex gap-72 lg:gap-60 flex-col lg:flex-row mt-48 ${isDarkMode ? 'text-black' : ''}`}>
+      {/* Image 2 - 2nd Row */}
+      <div className={`flex gap-72 lg:gap-32 flex-col lg:flex-row mt-48 ${isDarkMode ? 'text-black' : ''}`}>
 
-        {/* Image 1 */}
+        {/* Image 2 */}
         <div className="relative w-[21rem] h-[21rem] lg:ml-14">
           <div
             className="bg-white border-8 flex-col border-gray-300 p-5 flex justify-center items-center w-full h-full transition-colors ">
@@ -153,11 +156,12 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
           </div>
         </div>
 
-        {/* Image 2 - 2nd Row*/}
-        {/* <div className="relative w-[21rem] h-[21rem]">
-          <div className="bg-white border-8 border-gray-300 p-5 flex justify-center items-center w-full h-full transition-colors ">
+        {/* Image 3 - 2nd Row*/}
+        <div className="relative w-[21rem] h-[21rem]">
+          <div className="bg-white flex-col border-8 border-gray-300 p-5 flex justify-center items-center w-full h-full transition-colors ">
             <span className="text-black text-3xl">InStock 💰</span>
-            <a href="https://instock-app-example.com/">
+            <p className="text-gray-400  text-xl">Full-Stack Team Colab</p>
+            <a href="https://instock-oda.netlify.app/">
               <Image
                 src="/Instock.png"
                 alt="InStock"
@@ -196,7 +200,7 @@ export default function Projects({ isDarkMode, toggleTheme }: ThemeToggleProps) 
               </a>
             </ul>
           </div>
-        </div> */}
+        </div>
 
 
         {/* Image 3 - 2nd Row*/}
